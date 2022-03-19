@@ -1,0 +1,143 @@
+:root{
+    --darkGray: #141618;
+    --blueishDarkGray: #1e2224;
+    --blueishWhite: #fafaff;
+    --aRed: #d9103f;
+    --gYellow: #f6e24b;
+    --lBlue: #3fd9ef;
+    --pGreen: #10d93f;
+    /* Header */
+    --mainColor: red;
+    --headerLnkTxt:var(--blueishWhite);
+    --headerLnkBGHover: var(--blueishDarkGray);
+}
+
+body{
+    background-color: var(--darkGray);
+    margin: 0;
+}
+
+/* Header Begins */
+#header{
+    background-color: var(--blueishWhite);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 3.5em;
+    overflow: auto;
+}
+/* Scrollbar begins */
+/* width */
+#header::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+#header::-webkit-scrollbar-track {
+    border-radius: 1px;
+  }
+   
+  /* Handle */
+#header::-webkit-scrollbar-thumb {
+    background: var(--mainColor); 
+  }
+/* Scrollbar ends */
+#headerLink{
+    background-color: var(--mainColor);
+    color: var(--headerLnkTxt);
+    height: 100%;
+    width: 15%;
+    min-width: 8em;
+    text-decoration: none;
+    font-size: clamp(1em, 2em, 3em);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerLink:hover{
+    cursor: pointer;
+    background-color: var(--headerLnkBGHover);
+    color: var(--mainColor);
+    font-weight: bolder;
+    
+}
+
+/* /// Header elements /// */
+
+#headerMenu{
+    display: flex;
+    align-items: center;
+    width:70%;
+    height: 100%;
+    min-width: fit-content;
+}
+
+.headerElement {
+    color: rgb(20, 22, 24);
+    width: 10em;
+    min-width: 8em;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerElement:hover{
+    color: var(--aRed);
+    cursor: pointer;
+}
+
+#headerElementVideos:hover{
+    background-color: red;
+    color: var(--blueishWhite);
+}
+
+#headerElementNews:hover{
+    background-color: var(--aRed);
+    color: var(--blueishWhite);
+}
+
+#headerElementGames:hover{
+    background-color: var(--gYellow);
+    color: var(--blueishDarkGray);
+}
+
+#headerElementLearn:hover{
+    background-color: var(--lBlue);
+    color: var(--blueishDarkGray);
+}
+
+#headerElementAbout:hover{
+    background-color: var(--pGreen);
+    color: var(--blueishDarkGray);
+}
+
+#headerElementHomepage:hover{
+    color:var(--blueishWhite); 
+}
+
+#headerLinkToHomepage{
+    height: 100%;
+    width: 15%;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerLinkToHomepage:hover{
+    background-color: var(--blueishDarkGray);  
+}
+
+/* /// Header elements /// */
+
+/* Header Ends */
