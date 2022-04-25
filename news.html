@@ -12,40 +12,29 @@
     <link rel="icon" href="icons/News.ico">
 </head>
 <body>
-    <div id="header">
-        <a id="headerLink" href="news.html">Apollo News</a>
-        <div id="headerMenu">
-            <a href="Apollox.html" class="headerElement" id="headerElementVideos">Vídeos</a>
-            <a href="news.html" class="headerElement" id="headerElementNews">Noticias</a>
-            <a href="games.html" class="headerElement" id="headerElementGames">Juegos</a>
-            <a href="learn.html" class="headerElement" id="headerElementLearn">Aprendizaje</a>
-            <a href="about.html" class="headerElement" id="headerElementAbout">Acerca de</a>
-        </div>
-        <div id="headerLinkToHomepage">
-            <a href="index.html" class="headerElement" id="headerElementHomepage">Página de inicio</a>
-        </div>
-    </div>
+    <header class="mainHeader">
+        <!--Page Title (Apollo News)-->
+        <a class="mainLink" href="/news.html"><h1>Apollo News</h1></a>
+        <!--Navegation links-->
+        <nav>
+            <a class="headerLink" href="/index.html">Inicio</a>
+            <a class="headerLink" href="/Apollox.html">Videos</a>
+            <a class="headerLink" href="/news.html">Noticias</a>
+            <a class="headerLink" href="/games.html">Juegos</a>
+            <a class="headerLink" href="/learn.html">Aprendizaje</a>
+            <a class="headerLink" href="/about.html">Proyecto Apollo</a>
+        </nav>
+    </header>
 
     <div class="newsList">
-        <div class="newCard">
-            <a href="">
-                <div class="cardImage">
-                    <img src="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Foto de un gatito durmiendo">
-                </div>
-                <h2>Noticia 1</h2>
-                <p>Esta sería una pequeña descripción de la noticia básicamente</p>
+        <div class="newsCard">
+            <a class="newsCardLink" href="/news/2022/abril/James-Webb-termina-fase-fina.html">
+                <h2 class="newsCardTitle">James Web termina su alineación fina</h2>
             </a>
-        </div>
-        <div class="newCard">
-            <a href="">
-                <div class="cardImage">
-                    <img src="https://images.pexels.com/photos/3490871/pexels-photo-3490871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="Foto de dos gatitos durmiendo">
-                </div>
-                <h2>Noticia 2</h2>
-                <p>Esta sería una pequeña descripción de la noticia básicamente</p>
-            </a>
+            <div class="newsCardContent">
+                <img class="newsCardImage" src="https://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/telescope_alignment_evaluation_image_labeled.png?itok=O2VufQ0E" alt="">
+                <p class="newsCardDescription">El telescopio James Webb ha terminado su “fase fina” de alineamiento y ha tomado una hermosa imagen de una estrella en el proceso.</p>
+            </div>
         </div>
     </div>
 </body>
