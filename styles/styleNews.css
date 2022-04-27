@@ -82,21 +82,46 @@ h1 {
     color: var(--textColor);
 }
 
-.headerLink:link{
+.headerLink:link, .headerLink:visited{
+    display: inline-block;
+    padding: 5px 10px;
     color: var(--contentBackgroundColor);
     margin-right: 20px;
-}
-
-nav a:link:last-child{
-    margin-right: 0;
-}
-
-.headerLink:visited{
-    color: var(--contentBackgroundColor);
+    border-radius: 20px;
 }
 
 .headerLink:hover{
     color: var(--textColor);
+}
+
+.homepageHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--blueishWhite);
+}
+
+.techHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: red;
+}
+
+.newsHeaderLink:hover{
+    background-color: var(--blueishWhite);
+    color: var(--aRed);
+}
+
+.gamesHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--gYellow);
+}
+
+.learnHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--lBlue);
+}
+
+.aboutHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--pGreen);
 }
 
 .content {

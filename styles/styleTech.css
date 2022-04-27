@@ -21,7 +21,7 @@
 
     /* Main colors */
 
-    --mainColor: var(--gYellow);
+    --mainColor: red;
     --textColor: var(--textColorDark);
     --backgroundColor: var(--backgroundColorDark);
     --contentBackgroundColor: var(--contentBackgroundColorDark);
@@ -79,7 +79,7 @@ h1 {
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 10px;
-    color: var(--blueishDarkGray);
+    color: var(--textColor);
 }
 
 .headerLink:link, .headerLink:visited{
@@ -100,7 +100,7 @@ h1 {
 }
 
 .techHeaderLink:hover{
-    background-color: var(--blueishDarkGray);
+    background-color: var(--blueishWhite);
     color: red;
 }
 
