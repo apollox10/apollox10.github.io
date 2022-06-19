@@ -129,3 +129,15 @@ h1 {
     width: 75%;
 }
 
+/* WIP Message */
+.WIPMessage {
+    padding: 5% 10%;
+    color: var(--blueishWhite);
+}
+
+.WIPIcon{
+    display: block;
+    margin: auto;
+    padding: 5%;
+
+}
