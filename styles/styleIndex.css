@@ -7,6 +7,7 @@
     --gYellow: #f6e24b;
     --lBlue: #3fd9ef;
     --pGreen: #10d93f;
+    --darkBlue: #10263f;
 
 
     /* Dark mode */
@@ -83,14 +84,14 @@ a:hover{
 
 h1 {
     font-size: 2rem;
-    color: var(--blueishDarkGray);
+    color: var(--darkBlue);
 }
 
 .headerLink:link, .headerLink:visited{
     padding: 5px 10px;
     color: var(--contentBackgroundColor);
     margin-left: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     
 }
 
@@ -99,7 +100,7 @@ h1 {
 }
 
 .homepageHeaderLink:hover{
-    background-color: var(--blueishDarkGray);
+    background-color: var(--darkBlue);
     color: var(--blueishWhite);
 }
 

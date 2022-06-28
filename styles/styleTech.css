@@ -7,6 +7,7 @@
     --gYellow: #f6e24b;
     --lBlue: #3fd9ef;
     --pGreen: #10d93f;
+    --darkBlue: #10263f;
 
 
     /* Dark mode */
@@ -88,7 +89,7 @@ h1 {
 
 .headerLink:link, .headerLink:visited{
     padding: 5px 10px;
-    color: var(--contentBackgroundColor);
+    color: var(--textColor);
     margin-left: 20px;
     border-radius: 20px;
     

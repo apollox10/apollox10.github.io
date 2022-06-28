@@ -7,6 +7,7 @@
     --gYellow: #f6e24b;
     --lBlue: #3fd9ef;
     --pGreen: #10d93f;
+    --darkBlue: #10263f;
 
 
     /* Dark mode */
@@ -119,7 +120,7 @@ h1 {
 }
 
 .learnHeaderLink:hover{
-    background-color: var(--blueishDarkGray);
+    background-color: var(--darkBlue);
     color: var(--lBlue);
 }
 

@@ -90,7 +90,7 @@ h1 {
 
 .headerLink:link, .headerLink:visited{
     padding: 5px 10px;
-    color: var(--contentBackgroundColor);
+    color: var(--textColor);
     margin-left: 20px;
     border-radius: 20px;
     
