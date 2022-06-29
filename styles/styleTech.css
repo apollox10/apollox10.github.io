@@ -70,15 +70,16 @@ a:hover{
     min-width: 1000px;
     align-items: center;
     flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0 10px;
     background-color: var(--mainColor);
-    padding: 0 40px;
-    
 }
 
 .mainLink:link{
     padding-top: 7px;
     padding-bottom: 13px;
-    margin-right: auto;
+    flex: 1;
+    margin-left: 10px;
     color: var(--textColor);
 }
 
@@ -90,9 +91,8 @@ h1 {
 
 .headerLink:link, .headerLink:visited{
     padding: 5px 10px;
+    border-radius: 30px;
     color: var(--textColor);
-    margin-left: 20px;
-    border-radius: 20px;
     
 }
 
@@ -137,7 +137,7 @@ h1 {
 
 /* WIP Message */
 .WIPMessage {
-    padding: 5% 10%;
+    padding: 5% 5%;
 }
 
 .WIPIcon{
