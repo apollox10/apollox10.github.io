@@ -1,0 +1,128 @@
+/* Colors */
+:root{
+    --darkGray: rgb(11, 13, 15);
+    --blueishDarkGray: rgb(25, 29, 33);
+    --blueishWhite: rgb(250, 250, 255);
+    --tech: rgb(255, 0, 0);
+    --news: rgb(255, 32, 128);
+    --games: #f6e24b;
+    --learn: #3fd9ef;
+    --personal: #10d93f;
+    --homepage: #10263f;
+}
+
+
+
+/* Header */
+
+.mainHeader{
+    display: flex;
+    min-width: 1000px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0px 10px;
+    background-color: var(--mainColor);
+    
+}
+
+.mainLink:link, .mainLink:visited{
+    padding-top: 7px;
+    padding-bottom: 13px;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color:var(--contentBackgroundColor);
+}
+
+
+
+.headerLink:link, .headerLink:visited{
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: var(--contentBackgroundColor);
+}
+
+.headerLink:hover{
+    color: var(--textColor);
+}
+
+.homepageHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--blueishWhite);
+}
+
+.techHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--tech);
+}
+
+.newsHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--news);
+}
+
+.gamesHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--games);
+}
+
+.learnHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--learn);
+}
+
+.aboutHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--personal);
+}
+
+/* Body */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--textColor);
+}
+
+a:link{
+    color: var(--mainColor);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: var(--mainColor);
+}
+
+a:hover{
+    color:var(--textColor);
+}
+
+p{
+    color: var(--textColor);
+}
+
+/* WIP Message */
+.WIPMessage {
+    padding: 5% 5%;
+}
+
+.WIPIcon {
+    display: block;
+    margin: auto;
+    padding: 5%;
+}
+
