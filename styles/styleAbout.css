@@ -18,3 +18,10 @@
     --backgroundColor: var(--backgroundColorDark);
     --contentBackgroundColor: var(--contentBackgroundColorDark);
 }
+
+/* Override header */
+
+.aboutHeaderLink:hover{
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}

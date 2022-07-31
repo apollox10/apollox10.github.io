@@ -25,3 +25,28 @@
     background-color: var(--homepage);
     color: var(--mainColor);
 }
+
+.techHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--tech);
+}
+
+.newsHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--news);
+}
+
+.gamesHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--games);
+}
+
+.learnHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--learn);
+}
+
+.aboutHeaderLink:hover{
+    background-color: var(--blueishDarkGray);
+    color: var(--personal);
+}

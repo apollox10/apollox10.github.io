@@ -20,3 +20,9 @@
     --contentBackgroundColor: var(--contentBackgroundColorDark);
 }
 
+/* Override header */
+
+.gamesHeaderLink:hover{
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}

@@ -3,12 +3,12 @@
     --darkGray: rgb(11, 13, 15);
     --blueishDarkGray: rgb(25, 29, 33);
     --blueishWhite: rgb(250, 250, 255);
-    --tech: rgb(255, 0, 0);
-    --news: rgb(255, 32, 128);
-    --games: #f6e24b;
-    --learn: #3fd9ef;
-    --personal: #10d93f;
-    --homepage: #10263f;
+    --tech: rgb(255, 16, 64);
+    --news: rgb(32, 128, 255);
+    --games: rgb(255, 224, 64);
+    --learn: rgb(128, 224, 255);
+    --personal: #30e010;
+    --homepage: rgb(24, 34, 44);
 }
 
 
@@ -26,11 +26,14 @@
     
 }
 
-.mainLink:link, .mainLink:visited{
+.mainLinkSection{
     padding-top: 7px;
     padding-bottom: 13px;
     flex: 1;
     margin-left: 10px;
+}
+
+.mainLink:link, .mainLink:visited{
     font-size: 2rem;
     font-weight: bold;
     color:var(--contentBackgroundColor);
@@ -50,32 +53,26 @@
 
 .homepageHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--blueishWhite);
 }
 
 .techHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--tech);
 }
 
 .newsHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--news);
 }
 
 .gamesHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--games);
 }
 
 .learnHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--learn);
 }
 
 .aboutHeaderLink:hover{
     background-color: var(--blueishDarkGray);
-    color: var(--personal);
 }
 
 /* Body */
@@ -90,6 +87,10 @@ body {
     background-color: var(--backgroundColor);
     color: var(--textColor);
     margin: 0;
+}
+
+.content{
+    padding: 0 5%;
 }
 
 h1 {
@@ -117,7 +118,7 @@ p{
 
 /* WIP Message */
 .WIPMessage {
-    padding: 5% 5%;
+    padding: 5% 0;
 }
 
 .WIPIcon {

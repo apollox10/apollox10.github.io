@@ -19,6 +19,13 @@
     --contentBackgroundColor: var(--contentBackgroundColorDark);
 }
 
+/* Override header */
+
+.learnHeaderLink:hover{
+    background-color: var(--textColor);
+    color: var(--backgroundColor);
+}
+
 /* Override WIP Message */
 .WIPMessage{
     padding: 0;
@@ -31,7 +38,7 @@
 }
 .courseCard{
     margin: 25px 0;
-    background-color: var(--homepage);
+    background-color: var(--blueishDarkGray);
     padding: 15px 30px;
 }
 
@@ -42,4 +49,5 @@
 .cardDetails{
     display: flex;
     gap: 20px;
+    align-items: center;
 }

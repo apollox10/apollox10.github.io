@@ -20,7 +20,7 @@
 
 /* Override header */
 
-.headerLink:link, .headerLink:visited{
+.mainLink:link, .mainLink:visited, .headerLink:link, .headerLink:visited{
     color: var(--textColor);
 }
 
